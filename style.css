@@ -7,6 +7,7 @@ body{
 section{
     height: 400px;
     padding-bottom: 150px;
+    margin-bottom: 150px;
     
 }
 
@@ -86,6 +87,8 @@ p{
  .my-recipi{
      display: flex;
      width: 100%;
+     height:auto;
+     margin-bottom: 35px;
      
      
  }
@@ -106,3 +109,39 @@ p{
  .div-card img{
      width: 100%;
  }
+
+ .follow-us h1{
+     text-align: center;
+     
+ }
+
+ .follow-us{
+     text-align: center;
+     padding: 20px;
+    
+ }
+
+ .follow-us a{
+    text-decoration: none;
+    padding: 8px 20px;
+    background: linear-gradient( orange, tomato);
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    
+    
+    
+}
+
+footer{
+    text-align: center;
+    
+    background-color:rgb(32, 30, 30);
+    height: auto;
+    padding: 20px;
+    padding-bottom: 20px;
+}
+
+footer h1{
+    color: white;
+}
