@@ -1,0 +1,108 @@
+
+body{
+    margin: 0;
+    font-family: 'Bitter', serif;
+}
+
+section{
+    height: 400px;
+    padding-bottom: 150px;
+    
+}
+
+.home-page{
+    display: flex;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    
+    color: dimgray;
+    
+}
+
+
+
+.top-nav{
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+  }
+  
+  .top-nav a{
+    
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  
+  .difran-color{
+    color: orange;
+  }
+   
+
+ .half-width{
+     width: 60%;
+     margin-left: 4%;
+     padding-left: 3%;
+ }
+
+ .half-width p{
+     padding-bottom:50px ; 
+ }
+
+ .half-width img{
+     width: 90%;
+
+ }
+
+ .anchor-button{
+    text-decoration: none;
+    padding: 8px 20px;
+    background: linear-gradient( orange, tomato);
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    
+    
+}
+
+ .about-us{
+     background-image: url(images/Frame\ 57.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+ }
+
+ .my-resi{
+     text-align: center;
+ }
+ .my-recipi{
+     display: flex;
+     width: 100%;
+     
+     
+ }
+
+ .div-card{
+
+        width: 33%;
+        text-align: center;
+        margin: 30px;
+        padding: 35px;
+        border: 1px solid rgb(236, 227, 227);
+        border-radius: 5%;
+        box-shadow: violet;
+
+      
+ }
+
+ .div-card img{
+     width: 100%;
+ }
